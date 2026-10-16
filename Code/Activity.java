@@ -1,0 +1,9 @@
+public abstract class Activity {
+    protected String activityName;
+
+    public Activity(String activityName) {
+        this.activityName = activityName;
+    }
+
+    public abstract void showDetails();
+}
